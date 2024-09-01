@@ -18,6 +18,9 @@ body {
             color: #fff;
             cursor: pointer
 }
+.contacts {
+    font-style: normal
+}
 .text-address:hover,
 .text-address:focus {
 color: #404bbf;
@@ -95,6 +98,7 @@ color: #404bbf;
 .text-footer {
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 .section {
     background-color: #F4F4FD
