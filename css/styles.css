@@ -5,10 +5,11 @@ body {
 }
 .button:hover,
 .button:focus {
-    color: #404BBF
+    background-color: #404BBF
     
 }
 .button {
+    font-family: "Roboto", sans-serif;
         background: #4d5ae5;
         font-weight: 500;
             font-size: 16px;
@@ -17,11 +18,11 @@ body {
             color: #fff;
             cursor: pointer
 }
-.contacts:hover,
-.contacts:focus {
+.text-address:hover,
+.text-address:focus {
 color: #404bbf;
 }
-.contacts {
+.text-address {
     font-style: normal;
     font-weight: 400;
         font-size: 16px;
@@ -57,12 +58,12 @@ color: #404bbf;
 .page-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        line-height: 1.07;
 }
-.headines {
+.headlines {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -79,7 +80,7 @@ color: #404bbf;
 .second-titles {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+    line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -87,4 +88,17 @@ color: #404bbf;
 }
 .footer {
     background-color: #2e2f42;;
+}
+.logo-span-footer {
+    color: #f4f4fd;
+}
+.text-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+.section {
+    background-color: #F4F4FD
+}
+.box {
+    background-color: #FFFFFF
 }
