@@ -3,45 +3,28 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-.button:hover,
-.button:focus {
-    background-color: #404BBF
-    
+h1, h2, h3,h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.button {
-    font-family: "Roboto", sans-serif;
-        background: #4d5ae5;
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
-            cursor: pointer
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
-.contacts {
-    font-style: normal
+a {
+    text-decoration: none;
 }
-.text-address:hover,
-.text-address:focus {
-color: #404bbf;
+img {
+    display: block;
 }
-.text-address {
-    font-style: normal;
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-.nav-link {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+
+
+/*======================HEADER================*/
+.name-container {
+    display: flex;
+    justify-content: space-between;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -51,12 +34,65 @@ color: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
+
 .logo-span {
     color: #2e2f42;
 }
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.nav-link {
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.contacts {
+    font-style: normal;
+}
+.menu-contacts {
+    display: flex;
+    column-gap: 40px;
+}
+.text-address:hover,
+.text-address:focus {
+color: #404bbf;
+}
+.text-address {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding-top: 24px;
+            padding-bottom: 24px;
+}
+
+
+    /*==========MAIN=============*/
+
+        /*======SECTION 1===========*/
 .page {
     background-color: #2e2f42;
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 .page-title {
     font-weight: 700;
@@ -65,7 +101,28 @@ color: #404bbf;
         text-align: center;
         color: #fff;
         line-height: 1.07;
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
+.button:hover,
+.button:focus {
+    background-color: #404BBF
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer
+}
+
+/*======SECTION 2===========*/
 .headlines {
     font-weight: 500;
         font-size: 20px;
@@ -89,6 +146,19 @@ color: #404bbf;
         color: #2e2f42;
         text-transform: capitalize;
 }
+/*======SECTION 2===========*/
+.team-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+    .box {
+        background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+}
+
+
+
 .footer {
     background-color: #2e2f42;;
 }
@@ -99,10 +169,38 @@ color: #404bbf;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .section {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.box {
-    background-color: #FFFFFF
+
+.container {
+    max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.features-items {
+    margin-bottom: 60px;
+}
+.section-paddings {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
