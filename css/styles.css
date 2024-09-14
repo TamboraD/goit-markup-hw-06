@@ -94,7 +94,7 @@ color: #404bbf;
         /*======SECTION 1===========*/
 .page {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 188px 0 188px;
 }
 .page-title {
     font-weight: 700;
@@ -260,7 +260,3 @@ width: calc((100% - 72px) / 4);
     overflow: hidden;
 }
 
-.section-paddings {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
