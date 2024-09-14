@@ -91,8 +91,6 @@ color: #404bbf;
         /*======SECTION 1===========*/
 .page {
     background-color: #2e2f42;
-    padding-top: 120px;
-        padding-bottom: 120px;
 }
 .page-title {
     font-weight: 700;
@@ -112,6 +110,7 @@ color: #404bbf;
 }
 
 .button {
+    display: block;
     font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
@@ -119,16 +118,29 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: auto;
+        margin-right: auto;
+        padding: 16px 32px;
+        border-radius: 4px;
 }
 
 /*======SECTION 2===========*/
+.features-list {
+    margin-bottom: 60px;
+    display: flex;
+    column-gap: 24px;
+}
+.features-items {
+width: calc((100% - 72px) / 4);
+}
 .headlines {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
 }
 .text {
     font-weight: 400;
@@ -145,8 +157,12 @@ color: #404bbf;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
-/*======SECTION 2===========*/
+/*======SECTION 3===========*/
+.page-team {
+    background: #f4f4fd;
+}
 .team-list {
     display: flex;
     column-gap: 24px;
@@ -156,12 +172,36 @@ color: #404bbf;
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
 }
+.img-team {
+    margin-bottom: 32px;
+}
+
+/*===============SECTION 4====================*/
 
 
+.potfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px   ;
+}
+.portfolio-list-items {
+    width: calc((100% - 48px) / 3);
+}
+.name-portfolio {
+    padding: 32px 226px 8px 16px;;
+}
+.text-portfolio {
+    padding: 8px 314px 32px 16px;
+}
+
+
+/*============FOOTER============*/
 
 .footer {
     background-color: #2e2f42;;
 }
+
 .logo-span-footer {
     color: #f4f4fd;
 }
@@ -172,7 +212,6 @@ color: #404bbf;
     max-width: 264px;
 }
 .section {
-    background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -197,9 +236,7 @@ color: #404bbf;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.features-items {
-    margin-bottom: 60px;
-}
+
 .section-paddings {
     padding-top: 60px;
     padding-bottom: 60px;
