@@ -465,7 +465,6 @@ align-items: center;
         pointer-events: auto;
 }
 .modal {
-    /* position: relative; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -482,9 +481,9 @@ align-items: center;
     
 }
 .modal-close-btn {
+    display: flex;
     width: 24px;
     height: 24px;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #e7e9fc;
