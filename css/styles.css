@@ -782,6 +782,26 @@ display: flex;
         .footer-container {
             max-width: 264px;
         }
+        .container-logo-social {
+            display: flex;
+            gap: 24px;
+        }
+        .text-footer-media {
+        text-align: left;
+        }
+        .logo-footer {
+        text-align: left;
+        }
+        .footer-container {
+        text-align: left;
+        }
+        .footer-subscribe-text {
+            text-align: left;
+        }
+        .footer-form-subscribe {
+            display: flex;
+            /* gap: 24px; */
+        }
  }
 
 
