@@ -315,6 +315,7 @@ min-height: 432px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+background-color: #2e2f42;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url('../images/dark-bg-tel.jpg');
 }
@@ -664,6 +665,127 @@ width: calc((100% - 24px) / 2);
             padding: 40px 32px;
         }
  }
+ /* ========FOOTER========== */
+ .footer {
+    background-color: #2e2f42;
+ }
+ .footer-container {
+     margin-bottom: 72px;
+    text-align: center;
+ }
+ .logo-footer {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 16px;
+ }
+ .logo-span-footer {
+     color: #f4f4fd;
+ }
+ .text-footer {
+    text-align: left;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+ }
+ .text-footer-media {
+    text-align: center;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+ }
+ .social-list-link-footer {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    line-height: 0;
+}
+.social-list-footer {
+    gap: 16px;
+}
+.footer-social-media {
+    margin-bottom: 72px;
+}
+.footer-subscribe-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 16px;
+}
+/* .footer-form-subscribe {
+    display: flex;
+} */
+.footer-subscribe-input {
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 288px;
+        height: 40px;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        padding: 8px 16px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        /* opacity: 0.3; */
+        
+}
+
+.footer-subscribe-input:focus {
+    outline: none;
+}
+
+.footer-subscribe-input::placeholder {
+    color: #ffffff;
+    opacity: 0.6;
+}
+.footer-subscribe-btn {
+    display: flex;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    padding: 8px 24px;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.footer-subscribe-icon-telegram {
+    margin-left: 16px;
+}
+ @media screen and (min-width: 768px) {
+    .footer {
+            padding-left: 92px;
+            padding-right: 92px;
+        }
+        .footer-container {
+            max-width: 264px;
+        }
+ }
+
+
+
 
 
 

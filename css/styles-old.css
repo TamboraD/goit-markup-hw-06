@@ -300,7 +300,7 @@ align-items: center;
 /*============FOOTER============*/
 
 .footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
     padding: 100px 0
 }
 .logo-footer {
@@ -318,7 +318,7 @@ align-items: center;
 }
 .container-flex {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 .footer-container {
     margin-right: 120px;
@@ -401,9 +401,8 @@ align-items: center;
         font-weight: 500;
         cursor: pointer
 }
-.footer-subscribe-icon-telegram {
-    margin-left: 16px;
-}
+
+
 /* ================MODAL====================== */
 .modal-backdrop {
     position: fixed;
